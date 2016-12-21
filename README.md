@@ -1,2 +1,2 @@
 # MTA-SoftwareDev
-Student Lessons for HTML5 Software Development
+Student Lessons for Software Development
