@@ -47,3 +47,7 @@ display the words "Hello World" in the console that shows up when you run this p
         * **This is a very important rule in C#**
 * The next two `}` Curly brackets end the Main function code block and then the MainClass code block
     * **Any Every opening curly bracket `{` must end with a closing bracket `}`. This is a rule in C# with no exceptions!**
+    
+# Exercise
+
+Change the program above to print "Goodbye world" to the console instead of Hello World.
