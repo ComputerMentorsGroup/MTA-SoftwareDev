@@ -44,5 +44,6 @@ display the words "Hello World" in the console that shows up when you run this p
     * Never forget the Semicolon: `;`
         * A semicolon defines the end of a line of code. If the line does not end with a curly bracket,
         it should always end with a semicolon. 
+        * **This is a very important rule in C#**
 * The next two `}` Curly brackets end the Main function code block and then the MainClass code block
-    *` Any Every opening curly bracket `{` must end with a closing bracket `}`. This is a rule in C# with no exceptions!
+    * **Any Every opening curly bracket `{` must end with a closing bracket `}`. This is a rule in C# with no exceptions!**
