@@ -3,6 +3,11 @@
 *	Introduce IDE
 *	Introduce Code flow and syntax
 *	Introduce variables
+  *	String
+  *	Int
+  *	Double
+  *	Float
+  *	Boolean
 
 ## Week 2
 *	More in-depth with variables
