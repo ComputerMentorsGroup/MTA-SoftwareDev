@@ -38,3 +38,37 @@ class MainClass {
   }
 }
 ```
+
+# While loops
+
+A while loop is like an if statement except that the code within the while loop 
+will execute over and over again 
+until the statement within the parentheses is false
+
+```C#
+class MainClass {
+  public static void Main (string[] args){ 
+      //define and integer called x
+      int x = 0;
+      while(x < 10){ // Loop through the next 2 lines until x is no longer less than 10
+            System.Console.WriteLine("x is equal to " + x);
+            x++; //shorthand code equivelent to x = x + 1
+      }
+  }
+}
+```
+the output of this program if run should be 
+```
+X is 0
+X is 1
+X is 2
+X is 3
+X is 4
+X is 5
+X is 6
+X is 7
+X is 8
+X is 9
+```
+Notice how `X is 10` is never displayed. This is because when x is equal to 10, x is no longer less than 10, 
+if you change the statement within the while loop from `while(x<10)` to `while(x <= 10)` then `X is 10` should be the last statement displayed
