@@ -6,6 +6,7 @@
 * bool - holds either true or false
 * char - holds only on character
 * string - holds a series of characters (text)
+An = symbole means that the varible is the value given as shown below.
 ```C#
 int y = 100 / 2; // y will equal 50 because math
 string name = "Alex"; // Double quotes for string
@@ -37,3 +38,4 @@ string iAmNumber1 = "Ann"; // this is allowed
 * ulong - unsigned long, same as long but only holds positive values.
 * short - holds small interger values from -32,768 to 32,767.
 * ushort - unsigned short, same as short but only holds positive numbers
+
