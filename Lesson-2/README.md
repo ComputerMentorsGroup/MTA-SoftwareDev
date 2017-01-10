@@ -1,11 +1,11 @@
 # Boolean Logic
 
-Boolean Logic statements (also known as conditional logic) are any kind of logical 
+Boolean Logic expressions (also known as conditional expressions or statements) are any kind of logical 
 statement that returns a boolean value (true or false value)
 
 
 # Comparison Operators
-Comparison Operators can be used to define boolean variables,
+Comparison Operators can be used to define boolean variables by comparing any two numbers (or strings in some cases),
  if-else statements (described below) and while loops (also described below)
  
 
