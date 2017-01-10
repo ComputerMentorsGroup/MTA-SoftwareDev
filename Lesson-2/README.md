@@ -62,7 +62,7 @@ class MainClass {
             i++; //shorthand code equivelent to x = x + 1
       }
       
-      while(1==1){
+      while(1==1){ //1 is always equal to 1, tharefore:
             //This creates an infinite loop, the computer will run whatever is in here
             //over and over again until the program is stopped or the computer is shut down
             System.Console.WriteLine("Help i'm stuck in an infinite loop!");
