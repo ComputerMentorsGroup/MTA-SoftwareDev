@@ -12,7 +12,7 @@ Comparison Operators can be used to define boolean variables,
 | Operator              | description                                                                           |
 |-----------------------|---------------------------------------------------------------------------------------|
 |`==`                   |a double equal is used to compare values (ex. using x from the previous example `x == 4` returns *true* if x is equal to 4)|
-|`=`                    |**is not a comparison operator.** a single equal sign is used to confirm a variables meaning (ex. `x = 4` means that *x is 4*)|
+|`=`                    |**is not a comparison operator.** a single equal sign is used to **set** a variable to a value (ex. `x = 4` means that *x is 4*)|
 |`!=`                   |this combination means does not equal (ex. `x != 3` because `x == 4`)|
 |`>`, `<`, `>=`, `<=`   |these symbols act the same way as they do in math (<= is equivalent to ≤ and >= is equivalent to ≥).| 
 
