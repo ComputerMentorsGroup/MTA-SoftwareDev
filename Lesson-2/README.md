@@ -18,6 +18,7 @@ Comparison Operators can be used to define boolean variables,
 
 ###### Additional Resources
 * https://msdn.microsoft.com/en-us/library/c8f5xwh7.aspx
+* https://www.tutorialspoint.com/csharp/csharp_relational_operators.htm
 
 # If-Else Statements
 
@@ -34,10 +35,15 @@ class MainClass {
       if(2 + 2 != 4){
          // because 2+2 = 4 the code is false the line below will not be run
          System.Console.WriteLine("2 plus 2 is not equal to 4");
+      } else { //else is an optional addition to if statements
+         // Code between these brackets will only be run if the above statement is false
+         System.Console.WriteLine("2 plus 2 is equal to 4");
       }
   }
 }
 ```
+###### Additional Resources
+* https://msdn.microsoft.com/en-us/library/5011f09h.aspx
 
 # While loops
 
@@ -54,6 +60,14 @@ class MainClass {
             System.Console.WriteLine("x is equal to " + x);
             x++; //shorthand code equivelent to x = x + 1
       }
+      
+      while(1==1){
+            //This creates an infinite loop, the computer will run whatever is in here
+            //over and over again until the program is stopped or the computer is shut down
+            System.Console.WriteLine("Help i'm stuck in an infinite loop!");
+      }
+      //Any code below an infinite loop will never be run
+      System.Console.WriteLine("This line will never be printed");
   }
 }
 ```
@@ -70,5 +84,9 @@ X is 7
 X is 8
 X is 9
 ```
-Notice how `X is 10` is never displayed. This is because when x is equal to 10, x is no longer less than 10, 
-if you change the statement within the while loop from `while(x<10)` to `while(x <= 10)` then `X is 10` should be the last statement displayed
+Notice how `X is 10` is never displayed. 
+This is because when x is equal to 10, x is no longer less than 10.
+ 
+if you change the statement within the while loop from 
+`while(x<10)` to `while(x <= 10)` then `X is 10` should be 
+the last statement displayed
