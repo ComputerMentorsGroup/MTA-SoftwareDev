@@ -15,7 +15,7 @@
 *	Introduce for loops
 
 ## Week 3
-*	Introduce loops
+*	more on Conditional statements
 
 ## Week 4
 *	Introduce functions
