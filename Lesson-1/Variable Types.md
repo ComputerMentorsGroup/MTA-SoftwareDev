@@ -1,4 +1,13 @@
-# Most Common
+# Variables
+
+In programming, variables are used to hold values. 
+The value of a variable can be a number or an object such as a String of text or something else that you define.
+Variable can be used for:
+* Organizing code
+* Storing user input
+* Managing the current state of the program (more details later)
+
+# Most Common Types
 
 * int - holds interger values (i.e. whole numbers)
 * float - holds floating point values (i.e. decimal values) 4 bytes sized.
@@ -6,14 +15,15 @@
 * bool - holds either true or false
 * char - holds only on character
 * string - holds a series of characters (text)
-An = symbole means that the varible is the value given as shown below.
+An `=` symbol sets the value of the variable to the value specified on the right hand side of the symbol. For example:
 ```C#
 int y = 100 / 2; // y will equal 50 because math
 string name = "Alex"; // Double quotes for string
 char first = 'A'; // Single quotes for char
 bool v = true; // can only be true or false
-long l = x * 2;
-float f = 3.55555f; // You must pput the f behind the number or the console will give an error saying lookking for a double.
+long x = 2;
+long l = x * 2; //will equal 4 because x was set to 2
+float f = 3.55555f; // You must put the f in front of the number or the program will assume its a double (causing an error).
 double d = 4.9999999; // Double is the defualt floating type varible so it doesn't need a clarification lice decimal and float.
 ```
 # Variable naming
@@ -21,9 +31,11 @@ double d = 4.9999999; // Double is the defualt floating type varible so it doesn
 * CANNOT start with a number or contain spaces
 * Names are case sensitive.
 * Should start with a lowercase letter but is not mandatory.
+    * It is common practice to define variables with lowerCamelCaseNames meaning the first word is lower case and all proceeding 
+words are upperCase
 ```C#
 string firstName = "Alex"; // is allowed
-string LastName = "Jones"; // is allowed
+string LastName = "Jones"; // is allowed but not a recommended naming standard
 string 1stName = "Barbra"; // this name is not allowed
 string iAmNumber1 = "Ann"; // this is allowed
 ```
