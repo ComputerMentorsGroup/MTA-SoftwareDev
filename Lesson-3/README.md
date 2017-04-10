@@ -113,8 +113,9 @@ switch (findZodiac)
                 case 12: zodiac = "pig"; break;
                 default: zodiac = "I don't know!"; break;
             }
-````
-            * So here's the meat of our program.  The REMAINDER (or modulus) will be checked against each INTEGER next to **case**.  When it finds a match, the program "breaks" and stores the zodiac string where the break-out occured.
+```
+
+* So here's the meat of our program.  The REMAINDER (or modulus) will be checked against each INTEGER next to **case**.  When it finds a match, the program "breaks" and stores the zodiac string where the break-out occured.
             
 * `Console.WriteLine("Your Chinese Zodiac is the sign of the " + zodiac);`
    * Here we print out the zodiac string that was stored in the previous step.
