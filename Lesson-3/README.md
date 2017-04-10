@@ -115,7 +115,7 @@ Console.Title = "Input";
             }
 ```
 
-* Here's the meat of our program.  The REMAINDER (or modulus) will be checked against each INTEGER next to **case**.  
+* Here's the meat of our program.  The REMAINDER (or modulus) will be checked against each CASE INTEGER (the whole number next to **case**).  
    * When a match is found, the program "breaks" and stores the zodiac string where the break-out occured.
             
 * `Console.WriteLine("Your Chinese Zodiac is the sign of the " + zodiac);`
