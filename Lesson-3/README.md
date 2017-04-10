@@ -1,5 +1,7 @@
 # Lesson 3
 
+In this lesson you will create a console application that can receive input and respond with information.
+
 Writing your first program:
 
 1. Open Microsoft Visual Studio
@@ -115,10 +117,13 @@ Console.Title = "Input";
             }
 ```
 
-* Here's the meat of our program.  The REMAINDER (or modulus) will be checked against each CASE INTEGER (the whole number next to **case**).  
+* Here's the meat of our program: The SWITCH statement.  The REMAINDER (or modulus) will be checked against each CASE INTEGER (the whole number next to **case**).  
    * When a match is found, the program "breaks" and stores the zodiac string where the break-out occured.
             
 * `Console.WriteLine("Your Chinese Zodiac is the sign of the " + zodiac);`
    * Here we print out the zodiac string that was stored in the previous step.
 
+
+### Research: When would you use a Switch Statement rather than an If/Else Statement?
+### Create another Switch Statement Application.  Your application should receive an integer input and correctly print a corresponding statement/answer from within a switch.
    
