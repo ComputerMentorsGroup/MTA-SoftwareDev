@@ -1,4 +1,4 @@
-#Lesson 3
+# Lesson 3
 
 Writing your first program:
 
@@ -47,7 +47,6 @@ Console.ReadKey();
 * `Console.ReadKey();`
   * This statement calls upon the ReadKey method of the Console class to wait for any key to be pressed (Press Any Key to Continue)
     https://www.youtube.com/watch?v=st6-DgWeuos
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/st6-DgWeuos" frameborder="0" allowfullscreen></iframe>
     
 # Exercise
 
