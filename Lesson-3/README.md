@@ -23,7 +23,7 @@ string name = Console.ReadLine();
     * This names the Console Application "Input"
 * `Console.Write("Please Enter Your Name");`
     * Prints the statement between "s to the Console Window
-* `string name = Console.ReadLine();
+* `string name = Console.ReadLine();`
     * Whatever the user inputs is read by the console as a **string** with the variable **name**
     
     
