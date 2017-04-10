@@ -96,7 +96,7 @@ Console.Title = "Input";
 * `string zodiac;`
    * We must define the variable which will display your zodiac name.  We call this a string because it outputs text.
    
-   ``` C#
+   ```C#
 switch (findZodiac)
             {
                 case 1: zodiac = "rat"; break;
@@ -115,7 +115,8 @@ switch (findZodiac)
             }
 ```
 
-* So here's the meat of our program.  The REMAINDER (or modulus) will be checked against each INTEGER next to **case**.  When it finds a match, the program "breaks" and stores the zodiac string where the break-out occured.
+Here's the meat of our program.  The REMAINDER (or modulus) will be checked against each INTEGER next to **case**.  
+When a match if found, the program "breaks" and stores the zodiac string where the break-out occured.
             
 * `Console.WriteLine("Your Chinese Zodiac is the sign of the " + zodiac);`
    * Here we print out the zodiac string that was stored in the previous step.
