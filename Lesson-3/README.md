@@ -125,5 +125,5 @@ Console.Title = "Input";
 
 
 ### Research: When would you use a Switch Statement rather than an If/Else Statement?
-### Create another Switch Statement Application.  Your application should receive an integer input and correctly print a corresponding statement/answer from within a switch.
+### Challenge: Create another Switch Statement Application.  Your application should receive an integer input and correctly print a corresponding statement/answer from within a switch.
    
