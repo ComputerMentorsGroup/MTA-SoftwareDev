@@ -174,7 +174,7 @@ class Program
 {
 static void Main(string[] args)
 {
-   Rectangle rect = new RectanlgE();
+   Rectangle rect = new Rectangle();
    rect.Length = 5.0;
    rect.Width = 10.0;
    double area = rect.GetArea();
@@ -186,3 +186,16 @@ static void Main(string[] args)
 ```
 
 4. Save your project.
+
+
+
+**PROPERTIES** are class members that can be accessed like data, but contain code like a method.  Properties expose the data of a class in a more controlled manner.  For example, private data can be exposed using a public property.
+
+A property has two **accessors**: *GET* and *SET*
+
+**GET** is used to return the property value.
+
+**SET** is used to assign a new value to a property.
+
+Properties are usually *public* and should begin with a capital letter (Length, Width).  *Private fields are always lower-case.*
+
