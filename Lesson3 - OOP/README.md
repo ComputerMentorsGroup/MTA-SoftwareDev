@@ -78,10 +78,11 @@ static void Main(string[] args)
 Take a look at this line:
 `Rectangle rect = new Rectangle(5.0, 10.0);`
 
-| one | two | three | four |
+
+| Class | Object Name | New Object | Constructor |
 | --- | --- | ---  | --- |
 | Rectangle | rect | new | Rectangle(5.0, 10.0); |
-| Class | Object Name | New Object | Constructor(); |
+
 
 
 Here we are calling a **CONSTRUCTOR** with two arguments:
