@@ -9,10 +9,14 @@
 *	If-else statements
 *	While Loops
 * For Loops
+* Handling Input
+* Switch Statements
 
 ## Week 3
-*	Handling Input
-* Switch Statements
+*	Object Oriented Programming (OOP)
+* Functions
+* Methods
+* Classes
 
 ## Week 4
 * Web Applications
@@ -20,12 +24,6 @@
 * ASP.NET
 
 ## Week 5
-* Object Oriented Programming (OOP)
-*	Functions
-* Methods
-* Classes
-
-## Week 6
 *	Introduce Windows Forms*
 *	Introduce Windows Service*
 
