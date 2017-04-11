@@ -145,5 +145,18 @@ else
  message = message + "5 characters.";
  alert(message);
  ```
+ ## Continue exercise...
+ 
+ 4. In order for our JavaScript file to do anything we must "call it" within our web page.
+ 5. With your text-editor, open your index.html file that was created earlier.
+ 6. Add the script to your head tag, like shown:
+ 
+ ```JAVASCRIPT
+<head>
+   <title>My Website</title>
+   <link rel="stylesheet" type="text/css" href="mystyle.css">
+   <script src="Sample.js"></script>
+</head> 
+ ```
 
 A challenge relating to the original sample code should go here.
