@@ -212,7 +212,8 @@ Properties are usually *public* and should begin with a capital letter (Length, 
 
 Answer:  Organize your code into a **NAMESPACE**  for example:
  
-`` namespace NewCompany
+```C#
+namespace NewCompany
  {
    public class Widget { 
    ... 
@@ -227,6 +228,6 @@ namespace YourCompany
    ...
    }
 }
-``
+```
 
 ***
