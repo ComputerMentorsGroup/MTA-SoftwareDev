@@ -267,11 +267,29 @@ namespace PageEvents
    * `<% = expression %>` may be used to resolve an expression, such as:
    `<% = DateTime.Now.ToShortDateString() %>` (Displays the current date)
    
-* `@Page....`
+* `<%@ Page Language="C#" AutoEventWireUp="true" CodeBehind="WebForm1.aspx.cs" Inherits="PageEvents.WebForm1" %>`
    * Specifies how the page will be rendered:
       * Language is C#
       * Page events are Auto-Wired (true)
       * The name of the file that contains the classes associated with the page (CodeBehind = "WebForm1.aspx.cs")
       * The class name for the page to inherit (Inherts="PageEvents.WebForm1")
    
+   
+# Exercise
+
+**State Management** deals with maintaining the state of information across a page.  State Management can be handled by either the **Client Side** or **Server Side**.
+
+**Client Side State Management**
+* View State
+* Control State
+* Hidden Fields
+* Cookies
+* Query Strings
+
+**Server Side State Management**
+* Application State
+* Session State
+
+https://www.codeproject.com/Articles/331962/A-Beginner-s-Tutorial-on-ASP-NET-State-Management
+
    
