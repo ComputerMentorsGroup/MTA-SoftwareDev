@@ -122,3 +122,67 @@ Source: http://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-
 
 ***
 
+# Exercise
+
+1. Use the project you saved in the previous task.
+2. Modify the code of the Rectangle class:
+
+
+```C#
+class Rectangle {
+   private double length;
+   private double width;
+   private double Length;
+}
+
+   get
+     { 
+     return length;
+     }
+     set
+     {
+     if (value>0.0)
+     length = value;
+     }
+ }
+ public double Width
+ {
+   get
+   {
+      return width;
+   }
+   set
+   {
+   if (value > 0.0)
+   width = value;
+   }
+}
+
+   public double GetArea()
+   {
+   return length * width
+   }
+}
+```
+
+
+3. Now modify the code within the Program class:
+
+
+```C#
+class Program
+{
+static void Main(string[] args)
+{
+   Rectangle rect = new RectanlgE();
+   rect.Length = 5.0;
+   rect.Width = 10.0;
+   double area = rect.GetArea();
+   Console.WriteLine(
+      "Area of Rectangle: {0}", area);
+   }
+}
+
+```
+
+4. Save your project.
