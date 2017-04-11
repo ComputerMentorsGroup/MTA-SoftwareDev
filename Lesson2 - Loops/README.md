@@ -224,8 +224,6 @@ Console.Title = "Input";
 * `string zodiac;`
    * We must define the variable which will display your zodiac name.  We call this a string because it outputs text.
 
-## Continue!
-
 ```C#
  switch (findZodiac)
             {
@@ -252,7 +250,8 @@ Console.Title = "Input";
    * Here we print out the zodiac string that was stored in the previous step.
 
 
-### Research: When would you use a Switch Statement rather than an If/Else Statement?
-### Challenge: Create another Switch Statement Application.  Your application should receive an integer input and correctly print a corresponding statement/answer from within a switch.
+# Research: When would you use a Switch Statement rather than an If/Else Statement?
+
+# Challenge: Create another Switch Statement Application.  Your application should receive an integer input and correctly print a corresponding statement/answer from within a switch.
    
 
