@@ -224,7 +224,7 @@ namespace NewCompany
 and
 
 namespace YourCompany 
-   {
+{
    public class Widget 
    {
    ...
