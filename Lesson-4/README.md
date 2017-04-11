@@ -187,6 +187,14 @@ else
  *If you were to setup a domain (.com) you could go to EDIT BINDINGS on the right sidebar.*
 
 Feel free to explore this area.
+
+### Challenge: 
+You can show off your website to anyone who is connected to the same internet connection as you!  
+1. Open the Command Prompt as an Administrator 
+   * (Windows Search: **CMD** then Right-Click -> **Run as Administrator**)
+2. Type **ipconfig** and press the **Enter** key
+3. Write down your IPv4 Address (For example, it might show 192.168.88.1)
+4. Have your friend open their web browser and type: 192.168.88.1/index.html in the address bar.
  
  
  ### Web Applications and Web Services are Server-Side Programming
