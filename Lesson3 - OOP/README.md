@@ -39,7 +39,7 @@ class Rectangle
 }
 ```
 
-### A **CLASS** is a template that can be reused over and over again to create individual objects.
+### A **CLASS** is a template that can be reused over and over again to create objects.
 
 * The class you created is named Rectangle.
 * The Rectangle class has two data fields: length and width
@@ -51,21 +51,20 @@ class Rectangle
 * With our example, GetArea method has a *public* **access level**, a *double* data type, the method name is GetArea, the parameters are empty (there's nothing in the parenthesis!), and the block of code which executes is a single return statement.
 * If the method does not intend to return a value it may say **void** instead of specifying a data type.
 * The method must use a **return** statement, which executes the method and terminates right after it is done.
-* 
-
 
 
 
 # Exercise
 
-Modify the code of your Program class from the previous exercise:
+Modify the code of your Program class from the previous exercise using the code below.
+**The code below creates a rect object with given dimensions (5.0 and 10.0), then uses the method you previously defined to find the area of the object (rectangle).  It then prints the area to the console.**
 
 ```C#
 class Program
 {
 static void Main(string[] args)
    {
-   Rectangle rect = new Rectangle(10.0, 20.0);
+   Rectangle rect = new Rectangle(5.0, 10.0);
    double area = rect.GetArea();
    Console.WriteLine("area of Rectangle: {0}", area);
    }
@@ -75,8 +74,12 @@ static void Main(string[] args)
 
 
 
-Take a look at this line:
+
+In this line you've created an object:
+
+
 `Rectangle rect = new Rectangle(5.0, 10.0);`
+
 
 
 | Class | Object Name | New Object | Constructor |
@@ -95,9 +98,13 @@ We create the **OBJECT** by using the *new* keyword followed by the class **CONS
 
 
 
-### **OBJECTS** are created from templates defined by classes.
+**OBJECTS** are created from templates defined by classes.
 
-### A **CONSTRUCTOR** is a class method that is executed when a new instance of a class is created.  It initializes the data within an object (5.0 and 10.0 in the example).
+A **CONSTRUCTOR** is a class method that is executed when a new instance of a class is created.  It initializes the data within an object (5.0 and 10.0 in the example).
 * Constructors always have the same exact name as the class.
 * Constructors do not need to have a return data type
 * Multiple constructors can be defined for a class
+
+
+
+When the code executes, an object of Rectangle type is created in **HEAP** memory.  A reference to this memory is stored inside the variable rect, and the variable rect is stored in **STACK** memory - a fast memory that resides in the computer's RAM.
