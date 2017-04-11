@@ -15,15 +15,17 @@
 * Switch Statements
 
 ## Week 4
-*	Introduce functions
-*	Introduce Object Oriented Programing
+* Web Applications
+* Web Hosting
+* ASP.NET
 
 ## Week 5
-*	Continuing Object Oriented Programing
+* Object Oriented Programming (OOP)
+*	Functions
+* Methods
+* Classes
 
 ## Week 6
 *	Introduce Windows Forms*
 *	Introduce Windows Service*
 
-## Week 7
-*	Introduce Web Development (HTML 5, CSS, JavaScript)
