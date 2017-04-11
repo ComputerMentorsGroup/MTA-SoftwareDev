@@ -106,4 +106,7 @@ string iAmNumber1 = "Ann"; // this is allowed
 * short - holds small interger values from -32,768 to 32,767.
 * ushort - unsigned short, same as short but only holds positive numbers
 
+# Exercise 1
+
+Write a program that calculates the area of a rectangle with a height of 13 and a width of 48.2
 
