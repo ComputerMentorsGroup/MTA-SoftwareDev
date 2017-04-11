@@ -215,7 +215,8 @@ Answer:  Organize your code into a **NAMESPACE**  for example:
 ```C#
 namespace NewCompany
  {
-   public class Widget { 
+   public class Widget 
+   { 
    ... 
    }
 }
@@ -224,7 +225,8 @@ and
 
 namespace YourCompany 
    {
-   public class Widget {
+   public class Widget 
+   {
    ...
    }
 }
