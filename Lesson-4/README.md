@@ -220,7 +220,9 @@ We are going to create a ASP.NET Web Form using Visual Studio Community to explo
 4. The Page Directive in the HTML Markup should look like:
 `<%@ Page Language="C#" AutoEventWireUp="true" CodeBehind="WebForm1.aspx.cs" Inherits="PageEvents.WebForm1" %>`
 
-5. Switch to Code View and replace the code in WebForm1.aspx.cs to:
+5. Switch to Code View and replace the code in WebForm1.aspx.cs to the code below.
+6. Press F5 when you are done.
+
 ```C#
 using System;
 namespace PageEvents
@@ -258,3 +260,18 @@ namespace PageEvents
       }
 }
 ```
+
+## Details
+* `<% %>`
+   * This tag is used alongside HTML to embed code that is executed during the RENDERING stage.
+   * `<% = expression %>` may be used to resolve an expression, such as:
+   `<% = DateTime.Now.ToShortDateString() %>` (Displays the current date)
+   
+* `@Page....`
+   * Specifies how the page will be rendered:
+      * Language is C#
+      * Page events are Auto-Wired (true)
+      * The name of the file that contains the classes associated with the page (CodeBehind = "WebForm1.aspx.cs")
+      * The class name for the page to inherit (Inherts="PageEvents.WebForm1")
+   
+   
