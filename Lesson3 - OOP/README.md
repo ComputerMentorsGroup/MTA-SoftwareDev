@@ -141,7 +141,7 @@ class Rectangle {
      }
      set
      {
-     if (value>0.0)
+     if (value > 0.0)
      length = value;
      }
  }
@@ -193,9 +193,9 @@ static void Main(string[] args)
 
 A property has two **accessors**: *GET* and *SET*
 
-**GET** is used to return the property value.
+**GET** is used to return the property value.  If you do not include a GET accessor then the property will have a write-only property.
 
-**SET** is used to assign a new value to a property.
+**SET** is used to assign a new value to a property.  If you do not include a SET accessor then the property will be read-only.
 
 Properties are usually *public* and should begin with a capital letter (Length, Width).  *Private fields are always lower-case.*
 
