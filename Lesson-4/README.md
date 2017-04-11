@@ -199,6 +199,8 @@ Feel free to explore this area.
 5. **IP ADDRESSSES CHANGE** every time you re-connect to the internet (including restarting your computer).  A dedicated or static IP address does not change.  For more information visit: http://www.makeuseof.com/tag/static-ip-address-advantages-disadvantages/ 
  
  
+ # Lesson 4.5
+ 
  ### Web Applications and Web Services are Server-Side Programming
 * **ASP.NET** allows you to create applications that completely execute on the server. 
    * This is part of the .NET Framework, which enables you to develop programmable Web forms and Web Services.
