@@ -14,7 +14,7 @@ Pay close attention to these terms throughout the lesson:
 
 
 # Exercise
-1. Open Microsoft Visural Studion
+1. Open Microsoft Visual Studio
 2. Begin a New Console Application Project
 3. Add a new Visual C# **CLASS** named Rectangle to the project.
 4. Replace the code for the Rectangle class as follows.
