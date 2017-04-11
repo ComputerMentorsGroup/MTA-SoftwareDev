@@ -41,8 +41,35 @@ In this chapter students learn how to use HTML and CSS to create web pages, intr
 </body>
 ```
 
+## Details
+
+
+* `<!DOCTYPE html>`
+    * Document Type declaration, indicates to the web browser that this is an HTML document.
+    
+* `<head> </head>`
+    * Anything between the head tag is usually related to stylesheets being applied to a page or setting the title for the tab.
+ 
+ * `<body> </body>`
+   * Text and tags between the body tags are part of the page content - the stuff people actually see on your page.
+   
+ * `<h1> </h1>`
+   * Heading tags designate sections of text with larger or accented text.
+   * Heading tags run h1-h6, with h1 being the largest.
+   
+ * `<div> </div>`
+   * Div is short for divider.  A div can be put around content that needs to be styled specifically.
+    
+ * `<p> </p>`
+   * Paragraph tags surround text that should be spaced as if it belongs in a separate paragraph.  Easy enough.
+    
+    
+
+# Exercise
+
 4. Go to where you've saved index.html and double-click: it should open in your web browser
 5. Now lets make another text file.  We will save this one as **mystyle.css**
+6. Refresh your web browser page when you are done.  What happened?
 
 ```HTML5
 body
@@ -69,9 +96,6 @@ div {
 
 ```
 
-6. Refresh your web page.  What happened?
-
-
 
 ## Details
 Details about what the code above goes here
@@ -80,6 +104,7 @@ Details about what the code above goes here
     * A bulleted list of things about the line above should go here
     * **Really important stuff should be bold like this**
     * Keywords should be *italicized*
+    
 # Exercise
 
 A challenge relating to the original sample code should go here.
