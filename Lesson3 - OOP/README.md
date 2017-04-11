@@ -189,6 +189,10 @@ static void Main(string[] args)
 
 
 
+**In this exercise you modified the Rectangle class to have Length and Width properties.**  Properties are defined using a public access modifier.  Notice in your code the values for length and width cannot be negative.
+
+
+
 **PROPERTIES** are class members that can be accessed like data, but contain code like a method.  Properties expose the data of a class in a more controlled manner.  For example, private data can be exposed using a public property.
 
 A property has two **accessors**: *GET* and *SET*
