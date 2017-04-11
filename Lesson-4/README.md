@@ -126,16 +126,24 @@ div {
    * The background is using an RGBA format.  The values for RED, GREEN, and BLUE could range from 0-255.  The last digit is ALPHA, or opacity, which is a value between 0-1 (think percentage, or decimal).
 
     
-
-
-## Details
-Details about what the code above goes here
-
-* `Each line of code should be bulleted here`
-    * A bulleted list of things about the line above should go here
-    * **Really important stuff should be bold like this**
-    * Keywords should be *italicized*
-    
 # Exercise
+1. Next we will explore how JavaScript can make our pages interactive and dynamic.  
+2. Open another text-editor document and save it as SampleScript.js
+3. Enter the code below.  When you are done save your JavaScript file.
+
+```JavaScript
+username = prompt("Please enter your name");
+message = "Hello, " + username + ". Your name has ";
+nameLen = username.length;
+
+if (nameLen > 5) 
+   message = message + "more than ";
+else if (nameLen < 5)
+   message = message + "less than";
+else
+   message = message + "exactly";
+ message = message + "5 characters.";
+ alert(message);
+ ```
 
 A challenge relating to the original sample code should go here.
