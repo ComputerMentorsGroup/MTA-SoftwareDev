@@ -159,4 +159,9 @@ else
 </head> 
  ```
 
+* **JavaScript** 
+   * is a client-side scripting language that is interpreted by the web browser.  In contrast, C# is compiled by an IDE.
+   * All JavaScript code or source links should be placed within **script** tags.  Usually script tags are placed in the head, but not always.
+   * Not all users or web browsers have JavaScript enabled.  You may want to include a `<noscript>` element to deliver a message to these clients.
+ 
 A challenge relating to the original sample code should go here.
