@@ -96,6 +96,37 @@ div {
 
 ```
 
+* CSS
+   * Cascading Style Sheets are written a little differently, using a selector and curly brackets.
+   * Think of styling as using Microsoft Word.  For example, when you want to change the color of a font, you first **select** the text you'd like to change, then choose the paint bucket icon, and pick a color. Since we cannot drag our mouse to highlight stuff and expect that to translate to code, we have to tell the web browser what to do using text.  
+   * When we want to change the color of text between an `<h1> </h1>` tag, we clearly specify **h1** and follow it with curly brackets **{ }**  
+   * Inside the curly brackets you should put all changes you'd like to see made to the text between those **h1** tags, such as color, background, font, and more.
+   
+* `body {}`
+    * Targets the web page itself.  Great for setting an overall background color to the page
+    
+* `{ background: black; }`
+   * Inside the curly brackets we should put all changes we'd like to a particular selector.  
+   * Each change is indicated like so **Property: Attribute;**
+   * Colons (:) go after each Property.  Properties are keywords, in which there are many to learn!
+   * Semicolons (;) should end each line and come after the attribute.  Some attributes have tricky formatting, but usually it's just one word.
+   
+* `h1 {color: red;}`
+   * Changes all h1 tags to have red color font
+   
+* `p {text-align: center; color: blue;}`
+   * Usually you should hit enter after each semicolon (;)
+   * Paragraph font color is blue
+   * Paragraph text is centered on the page
+   
+* `div {border: 5px solid grey; width: 400px; margin: 0 auto; background: rbga(255,255,255,.7); }`
+   * Divider receives a border around it that is 5 pixels wide, a solid line (could be dashed, dotted, etc), and is colored grey.
+   * The divider spans a width of 400 pixels on the page.
+   * The top and bottom margin is 0 and the sides automatically adjust to center the divider on the page.
+   * The background is using an RGBA format.  The values for RED, GREEN, and BLUE could range from 0-255.  The last digit is ALPHA, or opacity, which is a value between 0-1 (think percentage, or decimal).
+
+    
+
 
 ## Details
 Details about what the code above goes here
