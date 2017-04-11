@@ -142,8 +142,6 @@ string name = Console.ReadLine();
 
 ```
 
-## Details
-
 * `Console.Title = "Input";`
     * This names the Console Application "Input"
 * `Console.Write("Please Enter Your Name");`
@@ -152,7 +150,7 @@ string name = Console.ReadLine();
     * Whatever the user inputs is read by the console as a **string** with the variable **name**
     
     
-## Exercise
+# Exercise
 
 Now let's add a few lines to this!
 
@@ -168,7 +166,7 @@ Console.WriteLine("Welcome " + name + "!");
 Console.ReadKey();
 
 ```
-## Details
+
 * `Console.WriteLine("Welcome " + name + "!");`
   * The console will print whatever is stored in the variable **name**
 * `Console.ReadKey();`
@@ -176,7 +174,7 @@ Console.ReadKey();
     https://www.youtube.com/watch?v=st6-DgWeuos
     
 
-## Exercise 
+# Exercise 
 
 Next, we're going to modify this program to calculate our Chinese Zodiac!
     
@@ -216,7 +214,7 @@ Console.Title = "Input";
             Console.ReadKey();
 
 ```
-## Details
+
 * `Console.WriteLine("What year were you born?");`
   * First the computer asks us for the year born. The Chinese Zodiac is based off the year you were born.
 * `int birthYr = Convert.ToInt32(Console.ReadLine());`
