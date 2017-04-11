@@ -78,7 +78,18 @@ static void Main(string[] args)
 Take a look at this line:
 `Rectangle rect = new Rectangle(5.0, 10.0);`
 
-Here we are calling a **CONSTRUCTOR** with two arguments (5.0 and 10.0) of the *double* data type.  We create the **OBJECT** by using the *new* keyword followed by the class **CONSTRUCTOR**.
+Rectangle | rect | new | Rectangle(5.0, 10.0);
+Class | Object Name | New Object | Constructor();
+
+
+Here we are calling a **CONSTRUCTOR** with two arguments:
+(5.0 and 10.0); 
+Which are using the *double* data type (they are decimals!)
+
+
+We create the **OBJECT** by using the *new* keyword followed by the class **CONSTRUCTOR**:
+**new Rectangle(5.0, 10.0);**
+
 
 
 ### **OBJECTS** are created from templates defined by classes.
