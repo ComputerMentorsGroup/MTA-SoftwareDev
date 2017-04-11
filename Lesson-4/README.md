@@ -196,6 +196,7 @@ Feel free to explore this area.
 3. Write down your IPv4 Address (For example, it might show 192.168.88.1)
 4. Have your friend open their web browser and type the IP address including **/index.html** at the end.  
 *For Example: 192.168.88.1/index.html*
+5. **IP ADDRESSSES CHANGE** every time you re-connect to the internet (including restarting your computer).  A dedicated or static IP address does not change.  For more information visit: http://www.makeuseof.com/tag/static-ip-address-advantages-disadvantages/ 
  
  
  ### Web Applications and Web Services are Server-Side Programming
