@@ -183,8 +183,10 @@ else
  13. Go to the Security Tab and "ALLOW" everything on your Administrator's Account.
  14. On the right sidebar you should have an option to **START** the web server.
  15. Open your web browser and type: **localhost** 
+ 
  *If you were to setup a domain (.com) you could go to EDIT BINDINGS on the right sidebar.*
- Feel free to explore this area.
+
+Feel free to explore this area.
  
  
  ### Web Applications and Web Services are Server-Side Programming
