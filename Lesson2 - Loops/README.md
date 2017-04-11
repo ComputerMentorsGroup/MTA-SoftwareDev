@@ -121,7 +121,7 @@ given the statement `(A < B)` fill out the answer column for this table
 
 
 
-# Switch Statements
+# Switch Statements Exercise
 
 In this lesson you will create a console application that can receive input and respond with information.
 
@@ -150,7 +150,7 @@ string name = Console.ReadLine();
     * Whatever the user inputs is read by the console as a **string** with the variable **name**
     
     
-# Exercise
+## Continue!
 
 Now let's add a few lines to this!
 
@@ -174,7 +174,7 @@ Console.ReadKey();
     https://www.youtube.com/watch?v=st6-DgWeuos
     
 
-# Exercise 
+## Continue!
 
 Next, we're going to modify this program to calculate our Chinese Zodiac!
     
@@ -223,6 +223,8 @@ Console.Title = "Input";
    * Remaining with the integer datatype, we have another variable that stores the result of two mathematical operations: subtraction and modulus.  Modulus stores or displays the REMAINDER after division is done.  For example, 5/2 is 2 remainder 1.  You could say 5/2 is 2.5, however, we only want to use integers to determine the chinese zodiac (no decimals or fractions!).  You will see why in a following code snippet.
 * `string zodiac;`
    * We must define the variable which will display your zodiac name.  We call this a string because it outputs text.
+
+## Continue!
 
 ```C#
  switch (findZodiac)
