@@ -1,21 +1,18 @@
 # MTA-SoftwareDev
 ## Week 1
 *	Introduce IDE
-*	Introduce Code flow and syntax
-*	Introduce variables
-  *	String
-  *	Int
-  *	Double
-  *	Float
-  *	Boolean
+*	Syntax
+* Variables
 
 ## Week 2
-*	More in-depth with variables
-*	Introduce if-else statements
-*	Introduce for loops
+*	Comparisons
+*	If-else statements
+*	While Loops
+* For Loops
 
 ## Week 3
-*	more on Conditional statements
+*	Handling Input
+* Switch Statements
 
 ## Week 4
 *	Introduce functions
