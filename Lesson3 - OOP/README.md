@@ -203,3 +203,29 @@ A property has two **accessors**: *GET* and *SET*
 
 Properties are usually *public* and should begin with a capital letter (Length, Width).  *Private fields are always lower-case.*
 
+
+
+***
+
+
+### Research:  Let's say you have a class named Widget.  Chances are, another company will also ship code that contains a class named Widget.  How do you handle the ambiguity in names?
+
+Answer:  Organize your code into a **NAMESPACE**  for example:
+ namespace NewCompany
+ {
+   public class Widget { 
+   ... 
+   }
+}
+
+and
+
+namespace YourCompany 
+   {
+   public class Widget {
+   ...
+   }
+}
+
+
+***
