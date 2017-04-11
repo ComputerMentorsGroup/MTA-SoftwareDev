@@ -106,7 +106,7 @@ class MainClass {
 ```
 * For loops are usually used for iterating through lists, or for iterating a specific number of times
 
-# Exercises
+# Exercise
 
 ### Truth Table
 
@@ -117,6 +117,7 @@ given the statement `(A < B)` fill out the answer column for this table
 | 1       | 2       |                        |
 | 2       | 1       |                        |
 | 10      | 30      |                        |
+
 
 
 
@@ -151,6 +152,8 @@ string name = Console.ReadLine();
     * Whatever the user inputs is read by the console as a **string** with the variable **name**
     
     
+## Exercise
+
 Now let's add a few lines to this!
 
 
@@ -172,6 +175,9 @@ Console.ReadKey();
   * This statement calls upon the ReadKey method of the Console class to wait for any key to be pressed (Press Any Key to Continue)
     https://www.youtube.com/watch?v=st6-DgWeuos
     
+
+## Exercise 
+
 Next, we're going to modify this program to calculate our Chinese Zodiac!
     
 ```C#
