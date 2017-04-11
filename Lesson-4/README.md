@@ -1,5 +1,8 @@
 # Lesson 4: Web Applications
 
+## Objectives
+In this chapter students learn how to use HTML and CSS to create web pages, introduction to JavaScript and ASP.NET, and learn the basics of web hosting for the purpose of creating a Web Application.
+
 ## Web Concepts
 * URL *Uniform Resource Locator* is the short way of saying Website Address, for example: http://www.mywebsite.com
 * Every Web Address starts with http:// or https:// (secure)
@@ -7,8 +10,12 @@
 * Every device on a Network (The Internet) is given an IP Address, which is similar to a phone number or house address.
 * Websites are made up of multiple documents, stored on another computer called a server.  When you visit a website your Web Browser (Chrome, Edge, Internet Explorer, Firefox, etc) sends an HTTP:// request to the server.  The server responds by sending files back to your web browser, and your browser processes the data into something you can see.
 * The foundation of any website is built using HTML and CSS.
-* HTML stands for HyperText Markup Language and defines the structure of a document, such as image placement, text, headings, tables, etc.  The language itself consists of tags, or angled brackets < />
-* CSS stands for Cascading Style Sheets and is responsible for the Style or Design of a page, such as fonts, colors, animations, and more.  The language uses 'selectors' and curly brackets {} to format web pages.
+* HTML stands for HyperText Markup Language and defines the structure of a document, such as image placement, text, headings, tables, etc.  The language itself consists of tags, or angled brackets < />. HTML is CLIENT-SIDE meaning it is rendered by the browser.
+* CSS stands for Cascading Style Sheets and is responsible for the Style or Design of a page, such as fonts, colors, animations, and more.  The language uses 'selectors' and curly brackets {} to format web pages.  CSS is CLIENT-SIDE meaning it is rendered by the browser.
+* JavaScript is a language that adds interactivity and dynamic content to your website.  Most JavaScript is CLIENT-SIDE, meaning it is rendered by the browser.
+* XML is eXtensible Markup Language that makes it easy to store and transport data.  Unlike HTML, XML does not have pre-defined tags - they are all made-up by the document author.  XML is CLIENT-SIDE, meaning its tags are served and rendered on the browser.
+* AJAX is a combination of JavaScript and XML that allows the send/request/receive/display of data without reloading a web page.  Ajax is a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh.
+* ASP.NET, PHP, Ruby, and Python are examples of Server-Side Programming Languages.
 
 
 # Exercise
