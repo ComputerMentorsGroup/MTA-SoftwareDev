@@ -73,12 +73,17 @@ static void Main(string[] args)
 ```
 **Press F5 and Save your project. Keep the project open.**
 
+
+
 Take a look at this line:
-`Rectangle rect = new Rectangle(10.0, 20.0);`
+`Rectangle rect = new Rectangle(5.0, 10.0);`
+
+Here we are calling a **CONSTRUCTOR** with two arguments (5.0 and 10.0) of the *double* data type.  We create the **OBJECT** by using the *new* keyword followed by the class **CONSTRUCTOR**.
+
 
 ### **OBJECTS** are created from templates defined by classes.
 
-### A **CONSTRUCTOR** is a class method that is executed when a new instance of a class is created.  It initializes the data within an object.
+### A **CONSTRUCTOR** is a class method that is executed when a new instance of a class is created.  It initializes the data within an object (5.0 and 10.0 in the example).
 * Constructors always have the same exact name as the class.
 * Constructors do not need to have a return data type
 * Multiple constructors can be defined for a class
