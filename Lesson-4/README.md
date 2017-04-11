@@ -180,3 +180,7 @@ else
 6. Aspnet_isapi.dll forwards the response to IIS which is then turned over to the web page client computer.
 
 **Prior to execution each ASP.NET page is converted into a class.  The class derives most of its functionality from the System.Web.UI.Page class, which provies properties such as: Request, Response, Session, and Server**
+
+
+## Example:
+In a typical contact form, after you enter information a hit the submit button, the page can process the submitted data to take an ACTION.  The action might be to submit to a database or send an email.  A **POSTBACK** occurs, which may appear to load the same page over again, but is actually submitting the data by posting back to the same web page for processing.  Other times the page may process and post a Thank You message to a new page as confirmation.
