@@ -78,7 +78,7 @@ static void Main(string[] args)
 Take a look at this line:
 `Rectangle rect = new Rectangle(5.0, 10.0);`
 
-
+| one | two | three | four |
 | --- | --- | ---  | --- |
 | Rectangle | rect | new | Rectangle(5.0, 10.0); |
 | Class | Object Name | New Object | Constructor(); |
