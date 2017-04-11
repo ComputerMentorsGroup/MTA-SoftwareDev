@@ -16,6 +16,7 @@ In this chapter students learn how to use HTML and CSS to create web pages, intr
 * XML is eXtensible Markup Language that makes it easy to store and transport data.  Unlike HTML, XML does not have pre-defined tags - they are all made-up by the document author.  XML is CLIENT-SIDE, meaning its tags are served and rendered on the browser.
 * AJAX is a combination of JavaScript and XML that allows the send/request/receive/display of data without reloading a web page.  Ajax is a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh.
 * ASP.NET, PHP, Ruby, and Python are examples of Server-Side Programming Languages.
+* IIS, or Internet Information Services, is installed on Windows computers to create and manage web hosting.
 
 
 # Exercise
