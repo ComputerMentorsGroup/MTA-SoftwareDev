@@ -1,4 +1,4 @@
-#Getting Started
+# Getting Started
 
 C# Is a programming language based on C, Java, and a few other common languages. 
 The most basic C# Application will look like this:
