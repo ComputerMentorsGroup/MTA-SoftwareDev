@@ -165,6 +165,28 @@ else
    * Not all users or web browsers have JavaScript enabled.  You may want to include a `<noscript>` element to deliver a message to these clients.
  
  
+ # Exercise (Optional)
+ ### Install and Configure IIS on a Windows 10 Computer
+ IIS or Internet Information Services is used to setup a web host on a Windows Server.  After this exercise you will be able to access your website by typing localhost into your web browser.  It will not be mapped to a domain or live on the internet for others to see - you would require a dedicated IP address for this to work outside of your local network.
+ 1. You must be logged in as an Administrator and on Windows 10 Operating System
+ 2. Go to Cortana to Search Windows and type: Programs and Features
+ 3. In the sidebar click "Turn Windows Features On/Off"
+ 4. Check the box next to Internet Information Services
+ 5. Expand (+) Internet Information Services
+ 6. Expand (+) Application Dev. Features
+ 7. Check CGI
+ 8. Click OK and Wait.
+ 9. Open your C:\ drive and double-click inetpub folder
+ 10.  You should have a wwwroot folder - this is your main website directory.  Move your index.html, mystyle.css, and Sample.js files here.
+ 11. Open IIS (you can do a Windows Search for Internet Information Services)
+ 12. In the left sidebar, expand "Sites" and Right-Click **Default Web Site** -> **Edit Permissions**
+ 13. Go to the Security Tab and "ALLOW" everything on your Administrator's Account.
+ 14. On the right sidebar you should have an option to **START** the web server.
+ 15. Open your web browser and type: **localhost** 
+ *If you were to setup a domain (.com) you could go to EDIT BINDINGS on the right sidebar.*
+ Feel free to explore this area.
+ 
+ 
  ### Web Applications and Web Services are Server-Side Programming
 * **ASP.NET** allows you to create applications that completely execute on the server. 
    * This is part of the .NET Framework, which enables you to develop programmable Web forms and Web Services.
