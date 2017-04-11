@@ -165,7 +165,7 @@ else
    * Not all users or web browsers have JavaScript enabled.  You may want to include a `<noscript>` element to deliver a message to these clients.
  
  
- # Exercise (Optional)
+ # Exercise
  ### Install and Configure IIS on a Windows 10 Computer
  IIS or Internet Information Services is used to setup a web host on a Windows Server.  After this exercise you will be able to access your website by typing localhost into your web browser.  It will not be mapped to a domain or live on the internet for others to see - you would require a dedicated IP address for this to work outside of your local network.
  1. You must be logged in as an Administrator and on Windows 10 Operating System
