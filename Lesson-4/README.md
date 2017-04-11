@@ -208,3 +208,53 @@ Feel free to explore this area.
 
 ## Example:
 In a typical contact form, after you enter information and hit the submit button, the page can process the submitted data to take an ACTION.  The action might be to submit to a database or send an email.  A **POSTBACK** occurs, which may appear to load the same page over again, but is actually submitting the data by posting back to the same web page for processing.  Other times the page may process and post a Thank You message to a new page as confirmation.
+
+
+# Exercise
+
+We are going to create a ASP.NET Web Form using Visual Studio Community to explore important stages of the ASP.NET page life cycle.
+
+1. New Project: ASP.NET Empty Web Application Template
+2. Project - Add New Item -> Web Form
+3. Name the file WebForm1.aspx
+4. The Page Directive in the HTML Markup should look like:
+`<%@ Page Language="C#" AutoEventWireUp="true" CodeBehind="WebForm1.aspx.cs" Inherits="PageEvents.WebForm1" %>`
+
+5. Switch to Code View and replace the code in WebForm1.aspx.cs to:
+```C#
+using System;
+namespace PageEvents
+{
+   public partial class WebForm1
+      : System.Web.UI.Page
+      {
+         protected void Page_Load
+            (object sender, EventArgs e)
+            {
+               Response.Write
+                  ("Message from Page_Load.<br/>");
+             }
+             
+         protected void Page_Init
+            (object sender, EventArgs e)
+            {
+               Response.Write
+                  ("Message from Page_Init.<br/>");
+             }
+             
+         protected void Page_PreRender
+            (object sender, EventArgs e)
+            {
+               Response.Write
+                  ("Message from Page_PreRender.<br/>");
+             }
+             
+         protected void Page_PreInit
+            (object sender, EventArgs e)
+            {
+               Response.Write
+                  ("Message from Page_PreInit.<br/>");
+             }
+      }
+}
+```
