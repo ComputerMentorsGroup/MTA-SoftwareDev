@@ -207,4 +207,4 @@ Feel free to explore this area.
 
 
 ## Example:
-In a typical contact form, after you enter information a hit the submit button, the page can process the submitted data to take an ACTION.  The action might be to submit to a database or send an email.  A **POSTBACK** occurs, which may appear to load the same page over again, but is actually submitting the data by posting back to the same web page for processing.  Other times the page may process and post a Thank You message to a new page as confirmation.
+In a typical contact form, after you enter information and hit the submit button, the page can process the submitted data to take an ACTION.  The action might be to submit to a database or send an email.  A **POSTBACK** occurs, which may appear to load the same page over again, but is actually submitting the data by posting back to the same web page for processing.  Other times the page may process and post a Thank You message to a new page as confirmation.
