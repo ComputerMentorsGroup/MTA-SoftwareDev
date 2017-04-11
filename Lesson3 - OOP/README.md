@@ -108,7 +108,11 @@ A **CONSTRUCTOR** is a class method that is executed when a new instance of a cl
 
 
 When the code executes, an object of Rectangle type is created in **HEAP** memory (like a heap of laundry!).  A reference to this memory is stored inside the variable rect, and the variable rect is stored in **STACK** memory - a fast memory that is queued in the computer's RAM.
+
+
 More on this concept here:
+
+
 *"The Stack is self-maintaining, meaning that it basically takes care of its own memory management.  When the top box is no longer used, it's thrown out.  The Heap, on the other hand, must worry about Garbage collection (GC), which deals with how to keep the Heap clean (no one wants dirty laundry laying around, it stinks!)."
 Source: http://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-part-i/*
 
