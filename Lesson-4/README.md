@@ -115,7 +115,7 @@ div {
    * Changes all h1 tags to have red color font
    
 * `p {text-align: center; color: blue;}`
-   * Usually you should hit enter after each semicolon (;)
+   * **Usually you should hit the enter key after each semicolon (;), but for the purpose of this section we will place the properties on one line.**
    * Paragraph font color is blue
    * Paragraph text is centered on the page
    
