@@ -119,6 +119,13 @@ More on this concept here:
 *"The Stack is self-maintaining, meaning that it basically takes care of its own memory management.  When the top box is no longer used, it's thrown out.  The Heap, on the other hand, must worry about Garbage collection (GC), which deals with how to keep the Heap clean (no one wants dirty laundry laying around, it stinks!)."
 Source: http://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-part-i/*
 
+*Objects are always allocated memory on the heap. The heap is the memory available to a program at runtime for
+dynamic memory allocation. In contrast, some data items can be created on the execution stack or the call stack.
+Items created on the stack are the method parameters and the local variables declared within a method. The
+stack memory is reclaimed when the stack unwinds (when a method returns, for example). The memory allocated
+in the heap is automatically reclaimed by the garbage collector when the objects are not in use any more (i.e.,
+no other objects are holding a reference to them).*
+
 
 ***
 
