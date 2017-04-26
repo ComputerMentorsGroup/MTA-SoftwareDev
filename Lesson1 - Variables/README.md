@@ -50,6 +50,7 @@ display the words "Hello World" in the console that shows up when you run this p
     
 # Exercise
 
+Using https://repl.it/languages/csharp or Visual Studio Community,
 Change the program above to print "Goodbye world" to the console instead of Hello World.
 
 
@@ -108,5 +109,6 @@ string iAmNumber1 = "Ann"; // this is allowed
 
 # Exercise 
 
+Using https://repl.it/languages/csharp or Visual Studio Community,
 Write a program that calculates the area of a rectangle with a height of 13 and a width of 48.2
 
