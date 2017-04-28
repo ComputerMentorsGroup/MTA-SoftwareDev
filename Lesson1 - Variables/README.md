@@ -68,8 +68,8 @@ Variable can be used for:
 * int - holds interger values (i.e. whole numbers)
 * float - holds floating point values (i.e. decimal values) 4 bytes sized.
 * double - holds larger decimal values (twice as large as float)
-* bool - holds either true or false
-* char - holds only on character
+* bool - holds either true or false (boolean values)
+* char - holds only one character
 * string - holds a series of characters (text)
 An `=` symbol sets the value of the variable to the value specified on the right hand side of the symbol. For example:
 ```C#
