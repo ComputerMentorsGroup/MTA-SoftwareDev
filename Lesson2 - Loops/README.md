@@ -9,7 +9,7 @@ Comparison Operators can be used to define boolean variables by comparing any tw
  if-else statements (described below) and while loops (also described below)
  
 
-| Operator              | description                                                                           |
+| Operator              | Description                                                                           |
 |-----------------------|---------------------------------------------------------------------------------------|
 |`==`                   |a double equal is used to compare values (ex. using x from the previous example `x == 4` returns *true* if x is equal to 4)|
 |`=`                    |**is not a comparison operator.** a single equal sign is used to **set** a variable to a value (ex. `x = 4` means that *x is 4*)|
@@ -62,7 +62,7 @@ class MainClass {
             i++; //shorthand code equivelent to x = x + 1
       }
       
-      while(1==1){ //1 is always equal to 1, tharefore:
+      while(1==1){ //1 is always equal to 1, therefore:
             //This creates an infinite loop, the computer will run whatever is in here
             //over and over again until the program is stopped or the computer is shut down
             System.Console.WriteLine("Help i'm stuck in an infinite loop!");
