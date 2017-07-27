@@ -14,7 +14,8 @@
 ***
 <a name="FizzBuzz"></a>
 # FizzBuzz
-Bellow is a simple program that prints out a sequence of numbers from 0 - 100. Except every time it hits a number which is a multiple of 3 it prints out "Fizz" and if it hits a multiple of 5 it prints out "Buzz" and if its a multiple of both it prints out "FizzBuzz".
+Below is a simple program that prints out a sequence of numbers from 0 - 100. Except every time it hits a number which is a multiple of 3 it prints out "Fizz" and if it hits a multiple of 5 it prints out "Buzz" and if its a multiple of both it prints out "FizzBuzz".
+
 ```Code
 using System;
 class MainClass {
@@ -34,7 +35,7 @@ class MainClass {
   }
 }
 ```
-There are multiple ways of completing the FizzBuzz program. Take some time and experiment on the differnt ways you can complete it, such as using a While loop or a do While loop. Or you can even try using another method insted of the main methode.
+There are multiple ways of completing the FizzBuzz program. Take some time and experiment on the differnt ways you can complete it, such as using a While loop or a do While loop. Or you can even try using another method insted of the main method.
 
 ```Code
 using System;
@@ -66,12 +67,6 @@ class MainClass {
 # HangMan
 
 ```Code
-Open your web browser and go to:
-repl.it/languages/csharp
-
-/*
- *  C# Program to Create a HangMan Game
- */
 using System;
 using System.Collections.Generic;
 using System.Linq;
