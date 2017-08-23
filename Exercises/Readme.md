@@ -140,7 +140,7 @@ If you'd like to add a "You Win!" line at the end, use:
 
 ```
 You will also want to add code to prevent the app from crashing when the player/user adds more than one character. Now would be a good time to search and research Try-Catch-Finally statements.
-
+https://msdn.microsoft.com/en-us/library/0yd65esw(v=vs.90).aspx
 
 ```
 try{
@@ -154,7 +154,7 @@ try{
 ```
 
 Next try adding code that allows the player to finish that word without typing out every letter individually. Try using if statements.
-
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else
 
 ```
 if(){
@@ -170,6 +170,7 @@ It also wouldn't hurt to ask the player if they’d like to play again.
 
 ```
 The current array is fine but let’s future proof it a bit and set the list to and word bank to expand automatically.
+https://msdn.microsoft.com/en-us/library/aa288453(v=vs.71).aspx
 ```
 int[] numbers = new int[] {1, 2, 3, 4, 5};
 ```
