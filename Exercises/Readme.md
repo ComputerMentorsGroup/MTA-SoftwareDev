@@ -143,7 +143,13 @@ You will also want to add code to prevent the app from crashing when the player/
 
 
 ```
-            
+try{
+
+} catch {
+
+}finally{
+
+}
 
 ```
 
@@ -151,7 +157,9 @@ Next try adding code that allows the player to finish that word without typing o
 
 
 ```
-            
+if(){
+
+}
 
 ```
 It also wouldn't hurt to ask the player if they’d like to play again.
@@ -162,7 +170,33 @@ It also wouldn't hurt to ask the player if they’d like to play again.
 
 ```
 The current array is fine but let’s future proof it a bit and set the list to and word bank to expand automatically.
+```
+int[] numbers = new int[] {1, 2, 3, 4, 5};
+```
 
+Bellow is a ASCII art hangman if you want to add it to your game.
+```
+public static void HangMan(int tries) {
+
+			string hangedMan = "____\n     |";
+
+			if (tries == 5) {
+				hangedMan = "____\n     |\n     O";
+			} else if (tries == 4) {
+				hangedMan = "____\n     |\n     O\n     |\n     |";
+			} else if (tries == 3) {
+				hangedMan = "____\n     |\n     O\n    /|\n     |";
+			} else if (tries == 2) {
+				hangedMan = "____\n     |\n     O\n    /|\\ \n     |";
+			} else if (tries == 1) {
+				hangedMan = "____\n     |\n     O\n    /|\\ \n     |\n    /\n";
+			} else if (tries == 0) {
+				hangedMan = "____\n     |\n     O\n    /|\\ \n     |\n    / \\\n";		
+			}
+			Console.Write(hangedMan);
+
+		}
+```
 
 ***
 <a name="shortname"></a>
