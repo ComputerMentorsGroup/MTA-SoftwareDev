@@ -16,7 +16,7 @@
 # FizzBuzz
 Below is a simple program that prints out a sequence of numbers from 0 - 100. Except every time it hits a number which is a multiple of 3 it prints out "Fizz" and if it hits a multiple of 5 it prints out "Buzz" and if its a multiple of both it prints out "FizzBuzz".
 
-```Code
+```C
 using System;
 class MainClass {
   public static void Main (string[] args) {
@@ -66,7 +66,7 @@ class MainClass {
 <a name="HangMan"></a>
 # HangMan
 
-```Code
+```C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -203,7 +203,7 @@ public static void HangMan(int tries) {
 <a name="numbersort"></a>
 # Number Sorting
 
-```Code
+```C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
