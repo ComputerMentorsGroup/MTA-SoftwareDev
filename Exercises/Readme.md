@@ -37,7 +37,7 @@ class MainClass {
 ```
 There are multiple ways of completing the FizzBuzz program. Take some time and experiment on the differnt ways you can complete it, such as using a While loop or a do While loop. Or you can even try using another method insted of the main method.
 
-```Code
+```C#
 using System;
 class MainClass {
   public static void FizzBuzz(){
@@ -117,7 +117,7 @@ namespace Hangman
 ```
 If you'd like to add a "You Win!" line at the end, use:
 
-```
+```C#
             while (true)
             {
                 char playerGuess = char.Parse(Console.ReadLine());
