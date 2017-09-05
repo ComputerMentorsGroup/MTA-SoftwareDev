@@ -11,6 +11,7 @@
 ### [Username and Password](#username-and-password-1)
 ### [Draw an X](#drawX)
 ### [Recursion: Decimal to Binary](#decbin)
+### [Dimensions](#dim)
 
 
 ***
@@ -362,10 +363,74 @@ public class DecToBinClass
 
 
 ***
-<a name="linkname"></a>
-# Title
+<a name="dim"></a>
+# Dimensions
 
 ```C#
+using System;
+
+public struct sampStru
+{
+    private double val;
+    public double Value
+    {
+        get { return val; }
+        set { val = value; }
+    }
+    public double Read()
+    {
+        return double.Parse(Console.ReadLine());
+    }
+}
+public struct Square
+{
+    sampStru ln;
+    sampStru ht;
+
+    public sampStru Length
+    {
+        get { return ln; }
+        set { ln = value; }
+    }
+    public sampStru Width
+    {
+        get { return ht; }
+        set { ht = value; }
+    }
+    public void newSquare()
+    {
+        sampStru rct = new sampStru();
+
+        Console.WriteLine("\nInput the dimensions: ");
+        ln = sqrLength();
+        Console.Write("width : ");
+        ht.Value = rct.Read();
+    }
+    public sampStru sqrLength()
+    {
+        sampStru rct = new sampStru();
+
+        Console.Write("length : ");
+        rct.Value = rct.Read();
+        return rct;
+    }
+}
+public class strucExer10
+{
+    static void Main()
+    {
+		Console.Write("\n\nMethod that returns a structure  :\n");
+		Console.Write("--------------------------------------\n");
+        var Sqre = new Square();
+        Sqre.newSquare();
+        Console.WriteLine();
+        Console.WriteLine("Perimeter and Area:");
+        Console.WriteLine("Length:    {0}", Sqre.Length.Value);
+        Console.WriteLine("Width:    {0}", Sqre.Width.Value);
+        Console.WriteLine("Perimeter: {0}", (Sqre.Length.Value + Sqre.Width.Value) * 2);
+        Console.WriteLine("Area:      {0}\n", Sqre.Length.Value * Sqre.Width.Value);
+    }
+}
 
 ```
 
