@@ -521,6 +521,7 @@ class filexercise2
 ```
 
 Check your Visual Studio folder for the .txt file:
+
 C:\Users\Student\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug
 
 ***
