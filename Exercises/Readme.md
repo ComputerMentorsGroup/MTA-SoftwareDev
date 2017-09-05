@@ -8,7 +8,7 @@
 ### [FizzBuzz](#FizzBuzz)
 ### [HangMan](#HangMan)
 ### [Bubble Sort](#numbersort)
-### [Username and Password](#username-and-password)
+### [Username and Password](#username-and-password-1)
 
 
 ***
