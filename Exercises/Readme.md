@@ -8,7 +8,7 @@
 ### [FizzBuzz](#FizzBuzz)
 ### [HangMan](#HangMan)
 ### [Bubble Sort](#numbersort)
-### [Name](#shortname)
+### [Login](#login)
 
 
 ***
@@ -238,6 +238,127 @@ public class Bubble_Sort
 
 
 ***
+
+
+
+
+***
+<a name="login"></a>
+# Username and Password
+
+```C#
+using System;
+public class Exercise16
+{
+    public static void Main()
+    {
+       string username, password;
+       int ctr = 0;
+       Console.Write("\n\nCheck username and password :\n");
+	   Console.Write("Note: Default user name and password is :abcd and 1234\n");
+       Console.Write("------------------------------------------------------\n"); 
+         
+        do
+        {
+			Console.Write("Input a username: ");
+			username = Console.ReadLine();
+ 
+			Console.Write("Input a password: ");
+			password = Console.ReadLine();
+			
+             if(username != "abcd" || password != "1234")
+             ctr++;
+             else
+             ctr=1;
+     
+        }
+        while((username != "abcd" || password != "1234")  && (ctr != 3));
+	 
+        if (ctr == 3)
+            Console.Write("\nLogin attemp three or more times. Try later!\n\n");
+        else   
+            Console.Write("\nThe password entered successfully!\n\n");		
+    }
+}
+```
+
+
+***
+
+<a name="linkname"></a>
+# Title
+
+```C#
+
+```
+
+
+***
+<a name="linkname"></a>
+# Title
+
+```C#
+
+```
+
+
+***
+<a name="linkname"></a>
+# Title
+
+```C#
+
+```
+
+
+***
+<a name="linkname"></a>
+# Title
+
+```C#
+
+```
+
+
+***
+<a name="linkname"></a>
+# Title
+
+```C#
+
+```
+
+
+***
+<a name="linkname"></a>
+# Title
+
+```C#
+
+```
+
+
+***
+<a name="linkname"></a>
+# Title
+
+```C#
+
+```
+
+
+***
+<a name="linkname"></a>
+# Title
+
+```C#
+
+```
+
+
+***
+
+
 
 
 
