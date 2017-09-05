@@ -16,7 +16,7 @@
 # FizzBuzz
 Below is a simple program that prints out a sequence of numbers from 0 - 100. Except every time it hits a number which is a multiple of 3 it prints out "Fizz" and if it hits a multiple of 5 it prints out "Buzz" and if its a multiple of both it prints out "FizzBuzz".
 
-```C
+```C#
 using System;
 class MainClass {
   public static void Main (string[] args) {
@@ -142,7 +142,7 @@ If you'd like to add a "You Win!" line at the end, use:
 You will also want to add code to prevent the app from crashing when the player/user adds more than one character. Now would be a good time to search and research Try-Catch-Finally statements.
 https://msdn.microsoft.com/en-us/library/0yd65esw(v=vs.90).aspx
 
-```
+```C#
 try{
 
 } catch {
@@ -156,7 +156,7 @@ try{
 Next try adding code that allows the player to finish that word without typing out every letter individually. Try using if statements.
 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else
 
-```
+```C#
 if(){
 
 }
@@ -171,12 +171,12 @@ It also wouldn't hurt to ask the player if they’d like to play again.
 ```
 The current array is fine but let’s future proof it a bit and set the list to and word bank to expand automatically.
 https://msdn.microsoft.com/en-us/library/aa288453(v=vs.71).aspx
-```
+```C#
 int[] numbers = new int[] {1, 2, 3, 4, 5};
 ```
 
 Bellow is a ASCII art hangman if you want to add it to your game.
-```
+```C#
 public static void HangMan(int tries) {
 
 			string hangedMan = "____\n     |";
